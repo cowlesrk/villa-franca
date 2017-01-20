@@ -1,0 +1,438 @@
+body {
+  font-family:'Crimson Text', sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-family: Angelface, sans-serif;
+  color: #a683a3;
+  font-size: 60px;
+  line-height: 44px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 800;
+  text-align: left;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+}
+li {
+  font-family:'Crimson Text', sans-serif;
+  color: #333;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+a {
+  display: block;
+  font-family: 'Crimson Text', sans-serif;
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: #ccb6ca;
+}
+
+.villafrancalogo {
+  width: 300px;
+  margin-top: 8px;
+}
+
+.nav-link {
+  font-family: 'Crimson Text', sans-serif;
+  color: #fff;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  color: #9c9c9c;
+}
+
+.nav-link.w--current {
+  color: #967594;
+  font-weight: 400;
+}
+
+.logocontainer {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.villafrancatextlogo {
+  margin-top: 125px;
+  font-family: Angelface, sans-serif;
+  color: #858585;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.weddingeventsvenuetext {
+  margin-top: 35px;
+  font-family: 'Crimson Text', sans-serif;
+  color: #bdbdbd;
+  font-size: 25px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+}
+
+.mainslider {
+  height: 500px;
+}
+
+.slidercontainer {
+  margin-top: 35px;
+}
+
+.slide1 {
+  background-image: url('../images/banner1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide2 {
+  background-image: url('../images/banner2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide3 {
+  background-image: url('../images/banner3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide4 {
+  background-color: transparent;
+  background-image: url('../images/banner4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.description-section.purple {
+  background-color: #ccb6ca;
+}
+
+.column1 {
+  text-align: center;
+}
+
+.column1.gingerblackcolumn {
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+
+.column2 {
+  margin-top: 30px;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.imagecolumn {
+  border-radius: 40px;
+  text-align: center;
+}
+
+.centercontainer {
+  text-align: center;
+}
+
+.textlinks {
+  display: inline;
+  font-family: 'Crimson Text', sans-serif;
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.map {
+  display: inline-block;
+  width: 280px;
+  height: 250px;
+}
+
+.rowcenter {
+  text-align: center;
+}
+
+.estate1 {
+  background-image: url('../images/abouttheestate3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.estate2 {
+  background-image: url('../images/abouttheestate4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.estate3 {
+  background-image: url('../images/abouttheestate5.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.estate4 {
+  background-image: url('../images/abouttheestate6.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.gingerblack {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  line-height: 30px;
+}
+
+.weddings1 {
+  background-image: url('../images/weddings1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.weddings2 {
+  background-image: url('../images/weddings2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.weddings3 {
+  background-image: url('../images/weddings3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.weddings4 {
+  background-image: url('../images/weddings4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dayinthevf {
+  color: #fff;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.specialevents1 {
+  background-image: url('../images/specialevents2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.specialevents2 {
+  background-image: url('../images/specialevents1.jpg');
+}
+
+.creditstext {
+  margin-top: 475px;
+  margin-right: 10px;
+  float: right;
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.contactus1 {
+  background-image: url('../images/contactus1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contactus2 {
+  background-image: url('../images/contactus2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contactform {
+  display: block;
+  height: 400px;
+  background-color: #fff;
+  font-family: 'Crimson Text', sans-serif;
+}
+
+.photoscolumn {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.contactinfocolumn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.photocolumn {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .menuicon {
+    color: #fff;
+  }
+  .nav-menu {
+    display: none;
+    background-color: #ccb6ca;
+    color: #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  .villafrancatextlogo {
+    font-size: 80px;
+  }
+  .weddingeventsvenuetext {
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .villafrancalogo {
+    width: 250px;
+    margin-top: 12px;
+  }
+  .logocontainer {
+    margin-top: 0px;
+  }
+  .villafrancatextlogo {
+    margin-top: 85px;
+    font-size: 50px;
+  }
+  .weddingeventsvenuetext {
+    margin-top: 10px;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+  .slidercontainer {
+    margin-top: 5px;
+  }
+  .slide1 {
+    background-position: 100% 50%;
+  }
+  .slide2 {
+    background-position: -100px 50%;
+    background-repeat: no-repeat;
+  }
+  .slide4 {
+    background-position: 100% 50%;
+  }
+  .estate4 {
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+  }
+  .weddings1 {
+    background-position: 59% 50%;
+  }
+  .weddings2 {
+    background-position: 47% 50%;
+  }
+  .weddings3 {
+    background-position: 26% 50%;
+  }
+  .specialevents2 {
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+  }
+  .contactus1 {
+    background-position: 79% 50%;
+  }
+  .contactform {
+    height: 700px;
+  }
+}
+
+@font-face {
+  font-family: 'Angelface';
+  src: url('../fonts/Angelface.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
